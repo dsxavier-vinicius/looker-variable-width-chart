@@ -107,7 +107,7 @@ looker.plugins.visualizations.add({
 
     if (dims.length < 1 || meas.length < 2) {
       this.addError({ title: 'Estrutura Inválida', message: 'Necessário 1 dimensão e 2 medidas.' });
-      return;
+      return; 
     }
 
     const xDimension = dims[0];
